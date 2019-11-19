@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/binlihpu/gameserver/msg"
-	"github.com/name5566/leaf/gate"
-	"github.com/name5566/leaf/log"
+	"github.com/binlihpu/leaf/gate"
+	"github.com/binlihpu/leaf/log"
 )
 
 func init() {

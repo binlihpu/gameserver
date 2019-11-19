@@ -3,7 +3,7 @@ package gamedata
 import (
 	"fmt"
 
-	"github.com/name5566/leaf/recordfile"
+	"github.com/binlihpu/leaf/recordfile"
 )
 
 // //Test 确保 bin/gamedata 目录中存在 Test.txt 文件

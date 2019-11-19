@@ -7,8 +7,8 @@ import (
 	"github.com/binlihpu/gameserver/gate"
 	"github.com/binlihpu/gameserver/login"
 
-	"github.com/name5566/leaf"
-	lconf "github.com/name5566/leaf/conf"
+	"github.com/binlihpu/leaf"
+	lconf "github.com/binlihpu/leaf/conf"
 )
 
 func main() {

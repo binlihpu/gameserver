@@ -2,7 +2,7 @@ package internal
 
 import (
 	"github.com/binlihpu/gameserver/base"
-	"github.com/name5566/leaf/module"
+	"github.com/binlihpu/leaf/module"
 )
 
 var (

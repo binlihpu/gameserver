@@ -2,8 +2,8 @@ package base
 
 import (
 	"github.com/binlihpu/gameserver/conf"
-	"github.com/name5566/leaf/chanrpc"
-	"github.com/name5566/leaf/module"
+	"github.com/binlihpu/leaf/chanrpc"
+	"github.com/binlihpu/leaf/module"
 )
 
 func NewSkeleton() *module.Skeleton {

@@ -3,8 +3,8 @@ package gamedata
 import (
 	"reflect"
 
-	"github.com/name5566/leaf/log"
-	"github.com/name5566/leaf/recordfile"
+	"github.com/binlihpu/leaf/log"
+	"github.com/binlihpu/leaf/recordfile"
 )
 
 func readRf(st interface{}) *recordfile.RecordFile {

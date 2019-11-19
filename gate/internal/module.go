@@ -4,7 +4,7 @@ import (
 	"github.com/binlihpu/gameserver/conf"
 	"github.com/binlihpu/gameserver/game"
 	"github.com/binlihpu/gameserver/msg"
-	"github.com/name5566/leaf/gate"
+	"github.com/binlihpu/leaf/gate"
 )
 
 type Module struct {
