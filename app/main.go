@@ -6,7 +6,6 @@ import (
 	"github.com/binlihpu/gameserver/gamedata"
 	"github.com/binlihpu/gameserver/gate"
 	"github.com/binlihpu/gameserver/login"
-
 	"github.com/binlihpu/leaf"
 	lconf "github.com/binlihpu/leaf/conf"
 )

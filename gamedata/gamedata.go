@@ -58,7 +58,6 @@ type GameData struct {
 }
 
 func LoadFile() {
-	fmt.Println("1111")
 	gameData = &GameData{
 		TestConf: readRf(Test{}),
 	}
