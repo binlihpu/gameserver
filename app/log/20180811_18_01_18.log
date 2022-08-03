@@ -1,6 +1,0 @@
-2018/08/11 18:01:18 [release] Leaf 1.1.2 starting up
-2018/08/11 18:01:22 [debug  ] hello leaf
-2018/08/11 18:01:47 [debug  ] read message: websocket: close 1001 (going away)
-2018/08/11 18:01:47 [debug  ] hello leaf1111
-2018/08/11 18:17:18 [release] Leaf closing down (signal: interrupt)
-2018/08/11 18:17:18 [debug  ] read message: read tcp 127.0.0.1:3653->127.0.0.1:53156: use of closed network connection

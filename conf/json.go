@@ -2,11 +2,12 @@ package conf
 
 import (
 	"encoding/json"
-	"github.com/binlihpu/leaf/log"
 	"io/ioutil"
+
+	"github.com/binlihpu/leaf/log"
 )
 
-var Server struct {
+type Server struct {
 	LogLevel    string
 	LogPath     string
 	WSAddr      string
@@ -18,13 +19,17 @@ var Server struct {
 	ProfilePath string
 }
 
+var ServerConf *Server
+
 func init() {
+	ServerConf = &Server{}
 	data, err := ioutil.ReadFile("conf/server.json")
 	if err != nil {
 		log.Fatal("%v", err)
 	}
-	err = json.Unmarshal(data, &Server)
+	err = json.Unmarshal(data, ServerConf)
 	if err != nil {
 		log.Fatal("%v", err)
 	}
+	log.Release("ServerConf:%+v", ServerConf)
 }
