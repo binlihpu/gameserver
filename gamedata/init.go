@@ -30,13 +30,10 @@ func LoadAllTable() {
 	// 表加载和构建索引后，需要手动处理数据的回调
 	Tab.RegisterPostEntry(func(tab *Table) error {
 		fmt.Println("tab post load done")
-		fmt.Printf("%+v\n", tab.ExampleDataByID[200])
-
-		fmt.Println("KV: ", tab.GetKeyValue_ExampleKV().ServerIP)
 		return nil
 	})
 
-	err := tabtoy.LoadFromFile(Tab, "../app/data/data.json")
+	err := tabtoy.LoadFromFile(Tab, "../app/data/data_gen.json")
 	if err != nil {
 		fmt.Println(err)
 		os.Exit(1)
